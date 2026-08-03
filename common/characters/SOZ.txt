@@ -1,0 +1,19 @@
+characters = {
+	SOZ_Vasily_Sokolovsky = {
+		name = SOZ_Vasily_Sokolovsky
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOZ_Vasily_Sokolovsky
+			}
+			army = {
+				large = GFX_portrait_SOZ_Vasily_Sokolovsky_army
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,10 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_portrait_SOZ_Vasily_Sokolovsky"
+		texturefile = "gfx/leaders/SOZ/portrait_SOZ_Vasily_Sokolovsky.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_SOZ_Vasily_Sokolovsky_army"
+		texturefile = "gfx/leaders/SOZ/portrait_SOZ_Vasily_Sokolovsky_army.dds"
+	}
+}

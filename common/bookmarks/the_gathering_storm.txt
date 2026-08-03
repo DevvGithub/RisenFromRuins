@@ -1,0 +1,26 @@
+bookmarks = {
+	bookmark = {
+		name = "RUINS"
+		desc = "RUINS_DESC"
+		date = 1946.3.1.12
+		picture = "GFX_select_date_1946"
+		default_country = "SOV"
+
+		SOV = {
+			history = SOV_RUINS_DESC
+			ideology = communism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

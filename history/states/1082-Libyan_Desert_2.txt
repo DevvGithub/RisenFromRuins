@@ -1,0 +1,11 @@
+state = {
+	id = 1082
+	name = "Libyan Desert 2"
+	manpower = 2664
+	state_category = rural
+	history = {
+		owner = FRA
+		add_core_of = FRA
+	}
+	provinces = { 12022 5004 10884 12082 }
+}

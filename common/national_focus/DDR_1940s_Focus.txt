@@ -1,0 +1,572 @@
+focus_tree = {
+	id = DDR40
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DDR
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+	focus = {
+		id = DDR40_Occupation
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		cost = 3
+		completion_reward = {}
+		ai_will_do = {
+			factor = 10
+		}
+		cancelable = no
+	}
+	focus = {
+		id = DDR40_Political_Purges
+		icon = GFX_goal_unknown
+		x = -1
+		y = 2
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_Occupation
+		}
+		relative_position_id = DDR40_Occupation
+		mutually_exclusive = {
+			focus = DDR40_KeepNazis
+		}
+	}
+	focus = {
+		id = DDR40_LocGov
+		icon = GFX_goal_unknown
+		x = 3
+		y = 2
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_Occupation
+		}
+	}
+	focus = {
+		id = DDR40_CivilServices
+		icon = GFX_goal_unknown
+		x = -3
+		y = 2
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_Occupation
+		}
+	}
+	focus = {
+		id = DDR40_NazInstitutions
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_Political_Purges
+		}
+		prerequisite = {
+			focus = DDR40_KeepNazis
+		}
+	}
+	focus = {
+		id = DDR40_EstSovietGarrisons
+		icon = GFX_goal_unknown
+		x = 0
+		y = 5
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_NazInstitutions
+		}
+		prerequisite = {
+			focus = DDR40_LocGov
+		}
+		prerequisite = {
+			focus = DDR40_CivilServices
+		}
+	}
+	focus = {
+		id = DDR40_PressSPD
+		icon = GFX_goal_unknown
+		x = -5
+		y = 6
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_EstSovietGarrisons
+		}
+	}
+	focus = {
+		id = DDR40_NegotiateUnifier
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 7
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_PressSPD
+		}
+		relative_position_id = DDR40_PressSPD
+	}
+	focus = {
+		id = DDR40_FormSED
+		icon = GFX_goal_unknown
+		x = -5
+		y = 8
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_NegotiateUnifier
+		}
+	}
+	focus = {
+		id = DDR40_PartyMembership
+		icon = GFX_goal_unknown
+		x = -6
+		y = 10
+		cost = 7
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_FormSED
+		}
+	}
+	focus = {
+		id = DDR40_PolitEducation
+		icon = GFX_goal_unknown
+		x = -4
+		y = 10
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_FormSED
+		}
+	}
+	focus = {
+		id = DDR40_KeepNazis
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		cost = 10
+		completion_reward = {}
+		mutually_exclusive = {
+			focus = DDR40_Political_Purges
+		}
+		prerequisite = {
+			focus = DDR40_Occupation
+		}
+	}
+	focus = {
+		id = DDR40_FDJ
+		icon = GFX_goal_unknown
+		x = -3
+		y = 11
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_PolitEducation
+		}
+	}
+	focus = {
+		id = DDR40_AntiFaschistCom
+		icon = GFX_goal_unknown
+		x = -5
+		y = 12
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_Culture
+		}
+		prerequisite = {
+			focus = DDR40_WomanLeague
+		}
+		prerequisite = {
+			focus = DDR40_FDGB
+		}
+		prerequisite = {
+			focus = DDR40_FDJ
+		}
+	}
+	focus = {
+		id = DDR40_FDGB
+		icon = GFX_goal_unknown
+		x = -6
+		y = 11
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_PartyMembership
+		}
+	}
+	focus = {
+		id = DDR40_WomanLeague
+		icon = GFX_goal_unknown
+		x = -4
+		y = 11
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_PolitEducation
+		}
+	}
+	focus = {
+		id = DDR40_Culture
+		icon = GFX_goal_unknown
+		x = -7
+		y = 11
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_PartyMembership
+		}
+	}
+	focus = {
+		id = DDR40_DrasticEcon
+		icon = GFX_goal_unknown
+		x = 0
+		y = 6
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_EstSovietGarrisons
+		}
+	}
+	focus = {
+		id = DDR40_ReconstructTransport
+		icon = GFX_goal_unknown
+		x = 0
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_DrasticEcon
+		}
+	}
+	focus = {
+		id = DDR40_LandReform
+		icon = GFX_goal_unknown
+		x = 0
+		y = 9
+		cost = 20
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_ReconstructTransport
+		}
+		prerequisite = {
+			focus = DDR40_FormSED
+		}
+	}
+	focus = {
+		id = DDR40_IndNat
+		icon = GFX_goal_unknown
+		x = 0
+		y = 10
+		cost = 15
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_LandReform
+		}
+	}
+	focus = {
+		id = DDR40_PeoplesEnt
+		icon = GFX_goal_unknown
+		x = -1
+		y = 11
+		cost = 7
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_IndNat
+		}
+	}
+	focus = {
+		id = DDR40_CentPlan
+		icon = GFX_goal_unknown
+		x = 1
+		y = 11
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_IndNat
+		}
+	}
+	focus = {
+		id = DDR40_TwoYear
+		icon = GFX_goal_unknown
+		x = 0
+		y = 12
+		cost = 20
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_PeoplesEnt
+		}
+		prerequisite = {
+			focus = DDR40_CentPlan
+		}
+	}
+	focus = {
+		id = DDR40_SecAdvisory
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_EstSovietGarrisons
+		}
+	}
+	focus = {
+		id = DDR40_ReorgPolice
+		icon = GFX_goal_unknown
+		x = 6
+		y = 9
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_PeoplesPolice
+		}
+	}
+	focus = {
+		id = DDR40_PolicialVet
+		icon = GFX_goal_unknown
+		x = 4
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_FormSED
+		}
+		prerequisite = {
+			focus = DDR40_PeoplesPolice
+		}
+	}
+	focus = {
+		id = DDR40_KasPolizei
+		icon = GFX_goal_unknown
+		x = 5
+		y = 10
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_ReorgPolice
+		}
+		prerequisite = {
+			focus = DDR40_PolicialVet
+		}
+	}
+	focus = {
+		id = DDR40_PeoplesPolice
+		icon = GFX_goal_unknown
+		x = 5
+		y = 8
+		cost = 7
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_SecAdvisory
+		}
+	}
+	focus = {
+		id = DDR40_StabilityInDerDDR
+		icon = GFX_goal_unknown
+		x = 5
+		y = 12
+		cost = 7
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_KasPolizei
+		}
+	}
+	focus = {
+		id = DDR40_WestOccupation
+		icon = GFX_goal_unknown
+		x = 0
+		y = 14
+		cost = 1
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_AntiFaschistCom
+		}
+		prerequisite = {
+			focus = DDR40_TwoYear
+		}
+		prerequisite = {
+			focus = DDR40_StabilityInDerDDR
+		}
+	}
+	focus = {
+		id = DDR40_TheBizone
+		icon = GFX_goal_unknown
+		x = 0
+		y = 15
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_WestOccupation
+		}
+	}
+	focus = {
+		id = DDR40_RejectMarshall
+		icon = GFX_goal_unknown
+		x = -1
+		y = 16
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_TheBizone
+		}
+	}
+	focus = {
+		id = DDR40_Frankfurtdocument
+		icon = GFX_goal_unknown
+		x = 1
+		y = 16
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_TheBizone
+		}
+	}
+	focus = {
+		id = DDR40_CurrencyReform
+		icon = GFX_goal_unknown
+		x = 0
+		y = 17
+		cost = 7
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_RejectMarshall
+		}
+		prerequisite = {
+			focus = DDR40_Frankfurtdocument
+		}
+	}
+	focus = {
+		id = DDR40_BerlinBlockade
+		icon = GFX_goal_unknown
+		x = 0
+		y = 18
+		cost = 15
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_CurrencyReform
+		}
+	}
+	focus = {
+		id = DDR40_LiftBlockade
+		icon = GFX_goal_unknown
+		x = 0
+		y = 19
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_BerlinBlockade
+		}
+	}
+	focus = {
+		id = DDR40_PeoplesCongress
+		icon = GFX_goal_unknown
+		x = 0
+		y = 21
+		cost = 7
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_LiftBlockade
+		}
+	}
+	focus = {
+		id = DDR40_SecondCongress
+		icon = GFX_goal_unknown
+		x = 0
+		y = 22
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_PeoplesCongress
+		}
+	}
+	focus = {
+		id = DDR40_PeoplCouncil
+		icon = GFX_goal_unknown
+		x = -2
+		y = 23
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_SecondCongress
+		}
+	}
+	focus = {
+		id = DDR40_ConstitutionDraft
+		icon = GFX_goal_unknown
+		x = 2
+		y = 23
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_SecondCongress
+		}
+	}
+	focus = {
+		id = DDR40_ApproveConst
+		icon = GFX_goal_unknown
+		x = 0
+		y = 24
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_ConstitutionDraft
+		}
+		prerequisite = {
+			focus = DDR40_PeoplCouncil
+		}
+	}
+	focus = {
+		id = DDR40_OrganiseMinistries
+		icon = GFX_goal_unknown
+		x = -2
+		y = 25
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_ApproveConst
+		}
+	}
+	focus = {
+		id = DDR40_HoldElection
+		icon = GFX_goal_unknown
+		x = 2
+		y = 25
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_ApproveConst
+		}
+	}
+	focus = {
+		id = DDR40_Prepare
+		icon = GFX_goal_unknown
+		x = 0
+		y = 26
+		cost = 7
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_OrganiseMinistries
+		}
+		prerequisite = {
+			focus = DDR40_HoldElection
+		}
+	}
+	focus = {
+		id = DDR40_TheDDR
+		icon = GFX_goal_unknown
+		x = 0
+		y = 28
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = DDR40_Prepare
+		}
+	}
+}
