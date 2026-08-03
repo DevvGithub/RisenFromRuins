@@ -1,0 +1,14 @@
+state = {
+	id = 1088
+	name = "Umbria"
+	manpower = 280448
+	state_category = rural
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = { 3885 6926 9794 11790 }
+}

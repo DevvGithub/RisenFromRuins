@@ -1,0 +1,14 @@
+state = {
+	id = 1089
+	name = "Abruzzo"
+	manpower = 331037
+	state_category = rural
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = { 3910 963 6831 9838 }
+}

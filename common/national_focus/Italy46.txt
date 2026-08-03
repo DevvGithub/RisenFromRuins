@@ -1,0 +1,226 @@
+focus_tree = {
+	id = Italy46
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+	focus = {
+		id = Starting_Anew
+		icon = GFX_goal_unknown
+		x = 0
+		y = -5
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = Setting_things_straight
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 10
+		completion_reward = {}
+		relative_position_id = Starting_Anew
+		prerequisite = {
+			focus = Starting_Anew
+		}
+	}
+	focus = {
+		id = The_Will_Of_The_People
+		icon = GFX_goal_unknown
+		x = -1
+		y = -2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Setting_things_straight
+		}
+	}
+	focus = {
+		id = The_Will_of_the_king
+		icon = GFX_goal_unknown
+		x = 1
+		y = -2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Setting_things_straight
+		}
+	}
+	focus = {
+		id = Setting_up_a_Referendum
+		icon = GFX_goal_unknown
+		x = 0
+		y = -1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = The_Will_of_the_king
+		}
+		prerequisite = {
+			focus = The_Will_Of_The_People
+		}
+	}
+	focus = {
+		id = Down_With_The_king
+		icon = GFX_goal_unknown
+		x = -4
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Setting_up_a_Referendum
+		}
+		mutually_exclusive = {
+			focus = Precarious_Balance
+		}
+	}
+	focus = {
+		id = Precarious_Balance
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Setting_up_a_Referendum
+		}
+		mutually_exclusive = {
+			focus = Down_With_The_king
+		}
+	}
+	focus = {
+		id = Cowards_No_longer
+		icon = GFX_goal_unknown
+		x = -5
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Down_With_The_king
+		}
+	}
+	focus = {
+		id = Exiled_king
+		icon = GFX_goal_unknown
+		x = -4
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Down_With_The_king
+		}
+	}
+	focus = {
+		id = The_Moment_of_truth
+		icon = GFX_goal_unknown
+		x = -3
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Down_With_The_king
+		}
+	}
+	focus = {
+		id = Preparing_Elections
+		icon = GFX_goal_unknown
+		x = -4
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Cowards_No_longer
+		}
+		prerequisite = {
+			focus = The_Moment_of_truth
+		}
+	}
+	focus = {
+		id = South_trust
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Down_With_The_king
+		}
+		prerequisite = {
+			focus = Precarious_Balance
+		}
+	}
+	focus = {
+		id = The_Mafia
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = South_trust
+		}
+	}
+	focus = {
+		id = King_Speech
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Precarious_Balance
+		}
+	}
+	focus = {
+		id = Regaining_trust
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Precarious_Balance
+		}
+	}
+	focus = {
+		id = Constitutional_Monarchy
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Regaining_trust
+		}
+		prerequisite = {
+			focus = A_Compromise
+		}
+	}
+	focus = {
+		id = A_Compromise
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = Precarious_Balance
+		}
+	}
+	focus = {
+		id = Fascism_Action
+		icon = GFX_goal_unknown
+		x = 0
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = The_Mafia
+		}
+	}
+}

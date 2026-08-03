@@ -403,8 +403,8 @@ POK = {
 	color_ui = rgb { 252 57 50 }
 }
 VIN = {
-	color = rgb { 230 223 50 }
-	color_ui = rgb { 230 223 50 }
+	color = rgb { 128 0 0 }
+	color_ui = rgb { 128 0 0 }
 }
 CAM = {
 	color = rgb { 100 71 150 }

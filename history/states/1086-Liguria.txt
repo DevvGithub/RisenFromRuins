@@ -1,0 +1,18 @@
+state = {
+	id = 1086
+	name = "Liguria"
+	manpower = 280322
+	state_category = city
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 6788 10 }
+	}
+	provinces = { 6788 3772 11891 }
+	resources = {
+		steel = 1
+	}
+}

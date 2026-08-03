@@ -1,0 +1,27 @@
+focus_tree = {
+	id = Default
+	country = {
+		factor = 0
+	}
+	default = yes
+	reset_on_civilwar = no
+	focus = {
+		id = Larping
+		icon = GFX_focus_CHL_unite_hispanic_america
+		x = 0
+		y = -4
+		cost = 500
+		completion_reward = {}
+	}
+	focus = {
+		id = Root_Beer
+		icon = GFX_focus_AST_off_leash
+		x = 0
+		y = -2
+		cost = 500
+		completion_reward = {}
+		prerequisite = {
+			focus = Larping
+		}
+	}
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1085
+	name = "Trieste"
+	manpower = 346053
+	state_category = city
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 6626 3 }
+	}
+	provinces = { 6626 }
+}

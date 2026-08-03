@@ -4,3 +4,7 @@
  SOZ_communism:0 "Soviet occupation zone in Germany"
  SOZ_communism_DEF:0 "Soviet Occupied Germany"
  SOZ_communism_ADJ:0 "East German"
+ ANL:0 "Anglo-Egyptian Sudan"
+ ANL_DEF:0 "Anglo-Egyptian Sudan"
+ OJP:0 "Allied Occupied Japan"
+ OJP_DEF:0 "Allied Occupied Japan"

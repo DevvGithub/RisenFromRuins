@@ -1,1 +1,3 @@
 SOZ = "countries/Soviet Occupation Zone.txt"
+ANL = "countries/Anglo-Egyptian Sudan.txt"
+OJP = "countries/Allied Occupied Japan.txt"
