@@ -1218,3 +1218,7 @@ DDR = {
 	color = rgb { 175 35 49 }
 	color_ui = rgb { 175 35 49 }
 }
+WGR = {
+	color = rgb { 72 72 72 }
+	color_ui = rgb { 72 72 72 }
+}

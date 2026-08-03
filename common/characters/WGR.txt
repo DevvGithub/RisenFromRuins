@@ -1,0 +1,22 @@
+characters = {
+	WGR_Reconstruction_Govn = {
+		name = WGR_Reconstruction_Govn
+		portraits = {
+			civilian = {
+				large = GFX_portrait_WGR_Reconstruction_Govn
+			}
+			army = {
+				large = GFX_portrait_WGR_Reconstruction_Govn_army
+			}
+			navy = {
+				large = GFX_portrait_WGR_Reconstruction_Govn_navy
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}

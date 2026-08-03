@@ -7,4 +7,16 @@ spriteTypes = {
 		name = "GFX_portrait_SOZ_Vasily_Sokolovsky_army"
 		texturefile = "gfx/leaders/SOZ/portrait_SOZ_Vasily_Sokolovsky_army.dds"
 	}
+	SpriteType = {
+		name = "GFX_portrait_WGR_Reconstruction_Govn"
+		texturefile = "gfx/leaders/WGR/portrait_WGR_Reconstruction_Govn.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WGR_Reconstruction_Govn_army"
+		texturefile = "gfx/leaders/WGR/portrait_WGR_Reconstruction_Govn_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_WGR_Reconstruction_Govn_navy"
+		texturefile = "gfx/leaders/WGR/portrait_WGR_Reconstruction_Govn_navy.dds"
+	}
 }

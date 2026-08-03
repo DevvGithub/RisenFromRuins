@@ -8,10 +8,11 @@ state = {
 	}
 	state_category = megalopolis
 	history = {
-		owner = ENG
+		owner = WGR
 		add_core_of = GER
 		add_core_of = RHI
 		add_core_of = PRE
+		add_core_of = WGR
 		victory_points = { 6469 10 }
 		victory_points = { 587 5 }
 		buildings = {

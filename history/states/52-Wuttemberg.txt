@@ -7,9 +7,10 @@ state = {
 	}
 	state_category = city
 	history = {
-		owner = USA
+		owner = WGR
 		add_core_of = GER
 		add_core_of = BAY
+		add_core_of = WGR
 		victory_points = { 692 20 }
 		victory_points = { 708 3 }
 		buildings = {

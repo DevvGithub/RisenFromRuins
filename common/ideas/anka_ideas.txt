@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+		SOZ_Remnants = {
+			allowed = {
+				original_tag = GER
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_exploit_mines
+			modifier = {
+				production_speed_buildings_factor = -1
+				consumer_goods_factor = 0.8
+				global_building_slots = -2
+			}
+		}
+	}
+}
