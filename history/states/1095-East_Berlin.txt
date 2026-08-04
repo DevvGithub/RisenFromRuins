@@ -1,0 +1,12 @@
+state = {
+	id = 1095
+	name = "East Berlin"
+	manpower = 0
+	state_category = metropolis
+	history = {
+		owner = DDR
+		add_core_of = DDR
+		victory_points = { 13416 50 }
+	}
+	provinces = { 13416 }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1097
+	name = "West Vienna"
+	manpower = 229798
+	state_category = metropolis
+	history = {
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 11666 30 }
+		add_core_of = AUS
+	}
+	provinces = { 11666 }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1096
+	name = "STATE_1096"
+	manpower = 0
+	state_category = metropolis
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 13417 30 }
+		add_core_of = AUS
+	}
+	provinces = { 13417 }
+}

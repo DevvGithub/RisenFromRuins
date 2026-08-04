@@ -21,3 +21,7 @@
  Swaziland:0 "Swaziland"
  STATE_1093:0 "Saarland"
  Saarland:0 "Saarland"
+ STATE_1094:0 "West Berlin"
+ STATE_1095:0 "East Berlin"
+ STATE_1096:0 "East Vienna"
+ STATE_1097:0 "West Vienna"

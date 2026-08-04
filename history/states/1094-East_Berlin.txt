@@ -1,0 +1,15 @@
+state = {
+	id = 1094
+	name = "STATE_1094"
+	manpower = 454064
+	state_category = metropolis
+	history = {
+		owner = WGR
+		add_core_of = WGR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 6521 50 }
+	}
+	provinces = { 6521 }
+}
