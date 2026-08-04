@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blanksaf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAF
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

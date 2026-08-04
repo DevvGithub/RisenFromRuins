@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blankmex
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MEX
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blankbur
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BUR
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

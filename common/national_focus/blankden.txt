@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blankden
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DEN
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

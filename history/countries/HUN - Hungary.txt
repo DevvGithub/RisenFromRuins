@@ -381,7 +381,7 @@ set_politics = {
 	ruling_party = communism
 	last_election = "1935.3.31"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 10
@@ -788,3 +788,5 @@ add_breakthrough_progress = {
 		set_oob = "HUN_1939_nsb"
 	}
 }
+set_stability = 0.6
+set_war_support = 0.2

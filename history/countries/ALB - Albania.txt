@@ -40,3 +40,6 @@ set_popularities = {
 	communism = 100
 }
 set_convoys = 5
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.2

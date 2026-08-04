@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blankalb
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ALB
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

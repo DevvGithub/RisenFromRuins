@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blankins
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = INS
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

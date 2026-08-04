@@ -184,3 +184,4 @@ if = {
 add_ideas = { SOZ_Remnants }
 set_cosmetic_tag = SOZ
 recruit_character = SOZ_Vasily_Sokolovsky
+set_war_support = 0

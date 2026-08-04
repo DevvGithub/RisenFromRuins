@@ -326,8 +326,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	communism = 100
+	democratic = 20
+	communism = 80
 	fascism = 0
 	neutrality = 0
 }
@@ -727,3 +727,5 @@ if = {
 		}
 	}
 }
+set_stability = 0.5
+set_war_support = 0.3

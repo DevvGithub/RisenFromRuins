@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blankper
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PER
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

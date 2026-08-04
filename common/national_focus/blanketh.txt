@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blanketh
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ETH
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blankspr
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SPR
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

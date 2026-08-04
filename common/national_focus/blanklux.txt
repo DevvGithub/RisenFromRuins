@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blanklux
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LUX
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

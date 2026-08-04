@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blankbol
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOL
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

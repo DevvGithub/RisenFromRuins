@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blankcze
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CZE
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

@@ -8,7 +8,6 @@ state = {
 	}
 	state_category = rural
 	history = {
-		owner = BEL
 		add_core_of = BEL
 		victory_points = { 9418 1 }
 		buildings = {
@@ -17,6 +16,7 @@ state = {
 				dam = 1
 			}
 		}
+		owner = BEL
 	}
 	provinces = { 6537 9418 9444 11407 }
 	local_supplies = 14.0

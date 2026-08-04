@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blankwgr
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WGR
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

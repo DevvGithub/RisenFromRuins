@@ -1,0 +1,12 @@
+focus_tree = {
+	id = blankrdc
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RDC
+		}
+	}
+	default = no
+	reset_on_civilwar = no
+}

@@ -1471,3 +1471,5 @@ if = {
 		set_cosmetic_tag = CZE_fall_of_the_republic
 	}
 }
+set_stability = 0.5
+set_war_support = 0.3
