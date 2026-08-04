@@ -1,7 +1,7 @@
 state = {
 	id = 1096
 	name = "STATE_1096"
-	manpower = 0
+	manpower = 159798
 	state_category = metropolis
 	history = {
 		owner = SOV

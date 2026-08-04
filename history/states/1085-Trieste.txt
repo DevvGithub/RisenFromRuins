@@ -6,10 +6,14 @@ state = {
 	history = {
 		owner = ITA
 		add_core_of = ITA
+		add_core_of = YUG
+		add_core_of = LBV
+		add_core_of = CRO
+		add_core_of = SLV
 		buildings = {
 			infrastructure = 1
 		}
-		victory_points = { 6626 3 }
+		victory_points = { 6626 5 }
 	}
 	provinces = { 6626 }
 }

@@ -5,7 +5,7 @@ state = {
 	state_category = town
 	history = {
 		owner = ITA
-		victory_points = { 9990 1 }
+		victory_points = { 9990 3 }
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -17,13 +17,6 @@ state = {
 		add_core_of = ITA
 		add_core_of = TTS
 	}
-	provinces = {
-		3901
-		9990
-		10027
-		12066
-		12098
-		3968
-	}
+	provinces = { 3901 9990 10027 12066 12098 }
 	local_supplies = 0.0
 }
