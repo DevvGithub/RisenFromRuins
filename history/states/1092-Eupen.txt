@@ -1,0 +1,18 @@
+state = {
+	id = 1092
+	name = "Eupen"
+	manpower = 67626
+	state_category = rural
+	history = {
+		owner = BEL
+		add_core_of = BEL
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = { 3488 }
+	resources = {
+		steel = 1
+		coal = 1
+	}
+}
