@@ -1,0 +1,16 @@
+focus_tree = {
+	id = ItalyPCI
+	country = {
+		factor = 0
+	}
+	default = no
+	reset_on_civilwar = no
+	focus = {
+		id = ItalyPCI_focus_1
+		icon = GFX_goal_unknown
+		x = 0
+		y = -1
+		cost = 10
+		completion_reward = {}
+	}
+}

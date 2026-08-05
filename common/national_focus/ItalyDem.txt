@@ -1,0 +1,363 @@
+focus_tree = {
+	id = ItalyDem
+	country = {
+		factor = 0
+	}
+	default = no
+	reset_on_civilwar = no
+	focus = {
+		id = ItalyDem_focus_1
+		icon = GFX_goal_unknown
+		x = 0
+		y = -2
+		cost = 2
+		completion_reward = {}
+	}
+	focus = {
+		id = ItalyDem_focus_2
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		cost = 6
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_1
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_3
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		cost = 8
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_2
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_4
+		icon = GFX_goal_unknown
+		x = -1
+		y = 2
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_2
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_5
+		icon = GFX_goal_unknown
+		x = -1
+		y = 4
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_4
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_6
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		cost = 1
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_3
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_7
+		icon = GFX_goal_unknown
+		x = 0
+		y = 6
+		cost = 1
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_5
+		}
+		prerequisite = {
+			focus = ItalyDem_focus_6
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_8
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 5
+		completion_reward = {}
+	}
+	focus = {
+		id = ItalyDem_focus_9
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_8
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_10
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 4
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_8
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_11
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		cost = 4
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_8
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_12
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_8
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_13
+		icon = GFX_goal_unknown
+		x = 8
+		y = -2
+		cost = 3
+		completion_reward = {}
+	}
+	focus = {
+		id = ItalyDem_focus_14
+		icon = GFX_goal_unknown
+		x = 5
+		y = -1
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_13
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_15
+		icon = GFX_goal_unknown
+		x = 4
+		y = 0
+		cost = 1
+		completion_reward = {}
+		mutually_exclusive = {
+			focus = ItalyDem_focus_16
+		}
+		prerequisite = {
+			focus = ItalyDem_focus_14
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_16
+		icon = GFX_goal_unknown
+		x = 6
+		y = 0
+		cost = 1
+		completion_reward = {}
+		mutually_exclusive = {
+			focus = ItalyDem_focus_15
+		}
+		prerequisite = {
+			focus = ItalyDem_focus_14
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_17
+		icon = GFX_goal_unknown
+		x = 8
+		y = -1
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_13
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_18
+		icon = GFX_goal_unknown
+		x = 8
+		y = 0
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_17
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_19
+		icon = GFX_goal_unknown
+		x = 11
+		y = -1
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_13
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_20
+		icon = GFX_goal_unknown
+		x = -5
+		y = -2
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = ItalyDem_focus_21
+		icon = GFX_goal_unknown
+		x = -5
+		y = 0
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_20
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_22
+		icon = GFX_goal_unknown
+		x = -7
+		y = 0
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_20
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_23
+		icon = GFX_goal_unknown
+		x = -3
+		y = 0
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_20
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_24
+		icon = GFX_goal_unknown
+		x = -5
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_22
+		}
+		prerequisite = {
+			focus = ItalyDem_focus_21
+		}
+		prerequisite = {
+			focus = ItalyDem_focus_23
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_25
+		icon = GFX_goal_unknown
+		x = 0
+		y = 8
+		cost = 5
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_7
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_26
+		icon = GFX_goal_unknown
+		x = -1
+		y = 9
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_25
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_27
+		icon = GFX_goal_unknown
+		x = 1
+		y = 9
+		cost = 3
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_25
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_28
+		icon = GFX_goal_unknown
+		x = 0
+		y = 10
+		cost = 2
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_26
+		}
+		prerequisite = {
+			focus = ItalyDem_focus_27
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_29
+		icon = GFX_goal_unknown
+		x = -2
+		y = 11
+		cost = 1
+		completion_reward = {
+			load_focus_tree = ItalyDem50
+		}
+		prerequisite = {
+			focus = ItalyDem_focus_28
+		}
+		mutually_exclusive = {
+			focus = ItalyDem_focus_30
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_30
+		icon = GFX_goal_unknown
+		x = 2
+		y = 11
+		cost = 1
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_28
+		}
+		mutually_exclusive = {
+			focus = ItalyDem_focus_29
+		}
+	}
+	focus = {
+		id = ItalyDem_focus_31
+		icon = GFX_goal_unknown
+		x = 11
+		y = 0
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = ItalyDem_focus_19
+		}
+	}
+}
