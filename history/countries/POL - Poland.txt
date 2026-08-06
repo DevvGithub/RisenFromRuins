@@ -119,7 +119,7 @@ if = {
 set_convoys = 10
 set_politics = {
 	ruling_party = communism
-	last_election = "1945.6.0.10"
+	last_election = "1945.06.00.10"
 	election_frequency = 36
 	elections_allowed = no
 }
