@@ -1,0 +1,28 @@
+add_namespace = italy_1
+add_namespace = italy_dem
+country_event = {
+	id = italy_1.1
+	title = italy_1.1.t
+	desc = italy_1.1.d
+	picture = GFX_report_event_italy_1_1
+	is_triggered_only = yes
+	option = {
+		name = italy_1.1.a
+	}
+	timeout_days = 7
+}
+country_event = {
+	id = italy_dem.1
+	title = italy_dem.1.t
+	desc = italy_dem.1.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_triggered_only = yes
+	option = {
+		name = italy_dem.1.a
+		set_politics = {
+			ruling_party = democracy
+			elections_allowed = no
+		}
+	}
+	timeout_days = 7
+}
