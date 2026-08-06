@@ -11,11 +11,15 @@ focus_tree = {
 	reset_on_civilwar = no
 	focus = {
 		id = Starting_Anew
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ETH_invite_italian_settlers
 		x = 0
 		y = -5
 		cost = 2
-		completion_reward = {}
+		completion_reward = {
+			country_event = {
+				id = italy_1.1
+			}
+		}
 	}
 	focus = {
 		id = Setting_things_straight
@@ -71,7 +75,11 @@ focus_tree = {
 		x = -7
 		y = 1
 		cost = 1
-		completion_reward = {}
+		completion_reward = {
+			country_event = {
+				id = italy_dem.1
+			}
+		}
 		prerequisite = {
 			focus = Setting_up_a_Referendum
 		}
