@@ -9,6 +9,7 @@ state = {
 		add_core_of = SPM
 		buildings = {
 			infrastructure = 4
+			dockyard = 2
 		}
 		victory_points = { 6788 10 }
 	}

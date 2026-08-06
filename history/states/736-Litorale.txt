@@ -10,7 +10,6 @@ state = {
 		add_core_of = LBV
 		buildings = {
 			infrastructure = 1
-			dockyard = 1
 			arms_factory = 1
 		}
 	}
