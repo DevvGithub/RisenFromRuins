@@ -3,4 +3,8 @@ spriteTypes = {
 		name = "GFX_report_event_italy_1_1"
 		texturefile = "gfx/event_pictures/italy_1_1.dds"
 	}
+	SpriteType = {
+		name = "GFX_report_event_sov_space_1"
+		texturefile = "gfx/event_pictures/sov_space_1.dds"
+	}
 }

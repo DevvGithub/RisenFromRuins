@@ -30,7 +30,11 @@ focus_tree = {
 		x = 1
 		y = 2
 		cost = 8
-		completion_reward = {}
+		completion_reward = {
+			country_event = {
+				id = italy_1.5
+			}
+		}
 		prerequisite = {
 			focus = ItalyDem_focus_2
 		}
