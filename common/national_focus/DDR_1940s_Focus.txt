@@ -66,10 +66,13 @@ focus_tree = {
 		cost = 3
 		completion_reward = {}
 		prerequisite = {
-			focus = DDR40_Political_Purges
+			focus = DDR40_Political_Purges focus = DDR40_KeepNazis
 		}
 		prerequisite = {
-			focus = DDR40_KeepNazis
+			focus = DDR40_LocGov
+		}
+		prerequisite = {
+			focus = DDR40_CivilServices
 		}
 	}
 	focus = {
@@ -81,12 +84,6 @@ focus_tree = {
 		completion_reward = {}
 		prerequisite = {
 			focus = DDR40_NazInstitutions
-		}
-		prerequisite = {
-			focus = DDR40_LocGov
-		}
-		prerequisite = {
-			focus = DDR40_CivilServices
 		}
 	}
 	focus = {

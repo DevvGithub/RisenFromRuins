@@ -20,7 +20,7 @@ country_event = {
 	option = {
 		name = italy_dem.1.a
 		set_politics = {
-			ruling_party = democracy
+			ruling_party = democratic
 			elections_allowed = no
 		}
 	}

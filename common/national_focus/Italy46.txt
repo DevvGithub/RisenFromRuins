@@ -104,7 +104,7 @@ focus_tree = {
 	focus = {
 		id = Cowards_No_longer
 		icon = GFX_goal_unknown
-		x = -8
+		x = -9
 		y = 3
 		cost = 2
 		completion_reward = {}
@@ -126,7 +126,7 @@ focus_tree = {
 	focus = {
 		id = The_Moment_of_truth
 		icon = GFX_goal_unknown
-		x = -6
+		x = -5
 		y = 3
 		cost = 2
 		completion_reward = {}
@@ -187,7 +187,7 @@ focus_tree = {
 	focus = {
 		id = Regaining_trust
 		icon = GFX_goal_unknown
-		x = 6
+		x = 5
 		y = 3
 		cost = 3
 		completion_reward = {}
@@ -212,7 +212,7 @@ focus_tree = {
 	focus = {
 		id = A_Compromise
 		icon = GFX_goal_unknown
-		x = 8
+		x = 9
 		y = 3
 		cost = 3
 		completion_reward = {}
@@ -365,5 +365,9 @@ focus_tree = {
 		prerequisite = {
 			focus = Free_voting
 		}
+	}
+	continuous_focus_position = {
+		x = 50
+		y = 4000
 	}
 }

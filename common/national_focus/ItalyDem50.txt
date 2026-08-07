@@ -421,4 +421,8 @@ focus_tree = {
 			focus = ItalyDem50_focus_35
 		}
 	}
+	continuous_focus_position = {
+		x = 50
+		y = 4000
+	}
 }
