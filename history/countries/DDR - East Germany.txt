@@ -181,8 +181,23 @@ if = {
 		}
 	}
 }
+set_variable = {
+	DDR_IND_PSB = -1
+}
+set_variable = {
+	DDR_IND_CGF = 0.8
+}
+set_variable = {
+	DDR_IND_GBS = -2
+}
+set_variable = {
+	DDR_IND_STAB = 0
+}
+add_dynamic_modifier = {
+	modifier = DDR_Industry
+}
 oob = DDR_1946
-add_ideas = { SOZ_Remnants SOZ_HJ SOZ_NaOfficers DDR_RF }
+add_ideas = { SOZ_HJ SOZ_NaOfficers DDR_RF }
 set_cosmetic_tag = SOZ
 recruit_character = SOZ_Vasily_Sokolovsky
 set_war_support = 0

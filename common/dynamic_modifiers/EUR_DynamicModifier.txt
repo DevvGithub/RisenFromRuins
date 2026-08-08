@@ -1,0 +1,7 @@
+DDR_Industry = {
+	icon = GFX_idea_generic_economic_crisis
+	production_speed_buildings_factor = DDR_IND_PSB
+	consumer_goods_factor = DDR_IND_CGF
+	global_building_slots = DDR_IND_GBS
+	stability_factor = DDR_IND_STAB
+}

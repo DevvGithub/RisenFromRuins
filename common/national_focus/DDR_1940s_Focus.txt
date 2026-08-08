@@ -49,7 +49,9 @@ focus_tree = {
 		x = 3
 		y = 2
 		cost = 3
-		completion_reward = {}
+		completion_reward = {
+			add_to_variable = " DDR_IND_GBS = 1"
+		}
 		prerequisite = {
 			focus = DDR40_Occupation
 		}
@@ -60,7 +62,9 @@ focus_tree = {
 		x = -3
 		y = 2
 		cost = 3
-		completion_reward = {}
+		completion_reward = {
+			add_to_variable = "DDR_IND_CGF = 0.2"
+		}
 		prerequisite = {
 			focus = DDR40_Occupation
 		}
@@ -71,7 +75,9 @@ focus_tree = {
 		x = 0
 		y = 4
 		cost = 3
-		completion_reward = {}
+		completion_reward = {
+			add_to_variable = "DDR_IND_STAB = 0.05"
+		}
 		prerequisite = {
 			focus = DDR40_Political_Purges
 			focus = DDR40_KeepNazis

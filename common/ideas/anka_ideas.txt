@@ -55,8 +55,8 @@ ideas = {
 			picture = EST_democratic_opposition
 			modifier = {
 				stability_factor = -0.1
-				monthly_population = -17500
 				political_power_gain = -0.2
+				weekly_manpower = -1000
 			}
 		}
 		SOZ_SovOfficers = {
