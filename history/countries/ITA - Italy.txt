@@ -27,7 +27,6 @@ IF = {
 	}
 }
 add_ideas = { vittorio_emanuele vittoria_mutilata limited_exports limited_conscription partial_economic_mobilisation }
-
 add_breakthrough_progress = {
 	specialization = specialization_land
 	value = 0.3
@@ -177,14 +176,11 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 40
-	communism = 40
-	fascism = 10
+	communism = 35
+	fascism = 15
 	neutrality = 10
 }
-recruit_character = ITA_benito_mussolini
 recruit_character = ITA_grand_council
-recruit_character = ITA_vittorio_emanuele_iii
-recruit_character = ITA_ferruccio_parri
 recruit_character = ITA_palmiro_togliatti
 recruit_character = ITA_rodolfo_graziani
 recruit_character = ITA_pietro_badoglio
@@ -248,7 +244,6 @@ recruit_character = ITA_giacomo_acerbo
 recruit_character = ITA_giovanni_marinelli
 recruit_character = ITA_serafino_mazzolini
 recruit_character = ITA_roberto_farinacci
-recruit_character = ITA_ivanoe_bonomi
 recruit_character = ITA_luigi_einaudi
 recruit_character = ITA_amadeo_bordiga
 recruit_character = ITA_paolo_thaon_di_revel
@@ -296,7 +291,6 @@ recruit_character = ITA_mario_castoldi
 recruit_character = ITA_giovanni_giorgi
 recruit_character = ITA_filippo_bonfiglietti
 recruit_character = ITA_curio_bernardis
-
 ITA_benito_mussolini = {
 	unit_leader_event = {
 		id = BBA_italy_missiolinis.11
@@ -991,3 +985,4 @@ if = {
 		}
 	}
 }
+recruit_character = ITA_Giorgio_Almirante

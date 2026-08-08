@@ -2,11 +2,14 @@ add_namespace = italy_1
 add_namespace = italy_dem
 add_namespace = korea
 add_namespace = DDR_Germany
+add_namespace = sov_space
+add_namespace = sov_moon
+add_namespace = ItalyKing
 country_event = {
 	id = italy_1.1
 	title = italy_1.1.t
 	desc = italy_1.1.d
-	picture = GFX_report_event_italy_1_1
+	picture = GFX_report_event_ITA_grand_council
 	is_triggered_only = yes
 	option = {
 		name = italy_1.1.a
@@ -27,6 +30,18 @@ country_event = {
 		}
 	}
 	timeout_days = 7
+}
+news_event = {
+news_event = {
+	id = sov_moon.1
+	title = sov_moon.1.t
+	desc = sov_moon.1.d
+	picture = GFX_report_event_sov_space_1
+	is_triggered_only = yes
+	option = {
+		name = sov_moon.1.a
+	}
+	timeout_days = 10
 }
 news_event = {
 	id = korea.1
@@ -52,4 +67,172 @@ news_event = {
 	}
 	fire_only_once = yes
 	major = yes
+}
+country_event = {
+	id = italy_1.2
+	title = italy_1.2.t
+	desc = italy_1.2.d
+	picture = GFX_report_event_ITA_democratic_parlament
+	is_triggered_only = yes
+	option = {
+		name = italy_1.2.b
+		complete_national_focus = Republic
+	}
+	option = {
+		name = italy_1.2.a
+		complete_national_focus = Precarious_Balance
+	}
+	timeout_days = 7
+}
+country_event = {
+	id = italy_1.3
+	title = italy_1.3.t
+	desc = italy_1.3.d
+	picture = GFX_report_event_INS_militia_campaign
+	is_triggered_only = yes
+	option = {
+		name = italy_1.3.a
+	}
+	timeout_days = 7
+}
+country_event = {
+	id = italy_1.4
+	title = italy_1.4.t
+	desc = italy_1.4.d
+	picture = GFX_report_event_BEL_leopold
+	is_triggered_only = yes
+	option = {
+		name = italy_1.4.a
+	}
+	timeout_days = 7
+}
+country_event = {
+	id = italy_1.5
+	title = italy_1.5.t
+	desc = italy_1.5.d
+	picture = GFX_report_event_SWI_parliament_members
+	is_triggered_only = yes
+	option = {
+		name = italy_1.5.a
+		add_political_power = 150
+	}
+	option = {
+		name = italy_1.5.b
+	}
+	option = {
+		name = italy_1.5.c
+	}
+}
+country_event = {
+	id = italy_1.6
+	title = italy_1.6.t
+	desc = italy_1.6.d
+	picture = GFX_report_event_ANZAC_day
+	is_triggered_only = yes
+	option = {
+		name = italy_1.6.a
+	}
+	timeout_days = 7
+}
+country_event = {
+	id = italy_1.7
+	title = italy_1.7.t
+	desc = italy_1.7.d
+	picture = GFX_report_event_AST_referendum
+	is_triggered_only = yes
+	option = {
+		name = italy_1.7.a
+		complete_national_focus = DC_Victory
+	}
+	option = {
+		name = italy_1.7.b
+		complete_national_focus = PCI_victory
+	}
+	timeout_days = 7
+}
+country_event = {
+	id = italy_1.8
+	title = italy_1.8.t
+	desc = italy_1.8.d
+	picture = GFX_report_event_BEL_paul_van_zeeland
+	is_triggered_only = yes
+	option = {
+		name = italy_1.8.a
+		add_stability = 0.01
+	}
+	timeout_days = 7
+}
+country_event = {
+	id = italy_1.9
+	title = italy_1.9.t
+	desc = italy_1.9.d
+	is_triggered_only = yes
+	option = {
+		name = italy_1.9.a
+		add_political_power = 50
+	}
+	timeout_days = 7
+}
+country_event = {
+	id = italy_1.10
+	title = italy_1.10.t
+	desc = italy_1.10.d
+	is_triggered_only = yes
+	option = {
+		name = italy_1.10.a
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.05
+		}
+	}
+	option = {
+		name = italy_1.10.b
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}
+		add_stability = 0.05
+	}
+	timeout_days = 7
+}
+country_event = {
+	id = ItalyKing.1
+	title = ItalyKing.1.t
+	desc = ItalyKing.1.d
+	picture = GFX_report_event_BEL_leopold
+	is_triggered_only = yes
+	option = {
+		name = ItalyKing.1.a
+	}
+}
+country_event = {
+	id = italy_1.11
+	title = italy_1.11.t
+	desc = italy_1.11.d
+	is_triggered_only = yes
+	option = {
+		name = italy_1.11.a
+		complete_national_focus = Mafia_merda
+	}
+	option = {
+		name = italy_1.11.b
+		complete_national_focus = Di_Famiglia
+	}
+	timeout_days = 7
+}
+country_event = {
+	id = italy_1.12
+	title = italy_1.12.t
+	desc = italy_1.12.d
+	is_triggered_only = yes
+	option = {
+		name = italy_1.12.a
+		complete_national_focus = Never_Again
+	}
+	option = {
+		name = italy_1.12.b
+		complete_national_focus = Old_friends
+	}
+	timeout_days = 7
+}
 }

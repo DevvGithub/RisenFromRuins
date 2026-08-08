@@ -19,4 +19,16 @@ spriteTypes = {
 		name = "GFX_portrait_WGR_Reconstruction_Govn_navy"
 		texturefile = "gfx/leaders/WGR/portrait_WGR_Reconstruction_Govn_navy.dds"
 	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_Giorgio_Almirante"
+		texturefile = "gfx/leaders/ITA/portrait_ITA_Giorgio_Almirante.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_Giorgio_Almirante_small"
+		texturefile = "gfx/leaders/ITA/portrait_ITA_Giorgio_Almirante_small.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_ITA_UmbertoDiSavoia"
+		texturefile = "gfx/leaders/ITA/portrait_ITA_UmbertoDiSavoia.dds"
+	}
 }
