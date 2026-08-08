@@ -1,5 +1,7 @@
 add_namespace = italy_1
 add_namespace = italy_dem
+add_namespace = korea
+add_namespace = DDR_Germany
 country_event = {
 	id = italy_1.1
 	title = italy_1.1.t
@@ -25,4 +27,29 @@ country_event = {
 		}
 	}
 	timeout_days = 7
+}
+news_event = {
+	id = korea.1
+	title = korea_KimSung.1.t
+	desc = korea_KimSung.1.d
+	picture = GFX_report_event_korea_1
+	option = {
+		name = korea.1.a
+	}
+	timeout_days = 7
+	fire_for_sender = no
+	major = yes
+	is_triggered_only = yes
+}
+news_event = {
+	id = DDR_Germany.1
+	title = DDR_Germany.1.t
+	desc = DDR_Germany.1.d
+	picture = GFX_report_event_DDR_Germany_1
+	is_triggered_only = yes
+	option = {
+		name = DDR_Germany.1.a
+	}
+	fire_only_once = yes
+	major = yes
 }

@@ -1,0 +1,126 @@
+division_template = {
+	name = "Grenztruppen Der DDR"
+	regiments = {
+		motorized = {
+			x = 0
+			y = 0
+		}
+		motorized = {
+			x = 0
+			y = 1
+		}
+		motorized = {
+			x = 0
+			y = 2
+		}
+		motorized = {
+			x = 0
+			y = 3
+		}
+		motorized = {
+			x = 0
+			y = 4
+		}
+		motorized = {
+			x = 1
+			y = 0
+		}
+		motorized = {
+			x = 1
+			y = 1
+		}
+		motorized = {
+			x = 1
+			y = 2
+		}
+		motorized = {
+			x = 1
+			y = 3
+		}
+		mot_artillery_brigade = {
+			x = 2
+			y = 0
+		}
+		mot_anti_tank_brigade = {
+			x = 3
+			y = 0
+		}
+		mot_anti_air_brigade = {
+			x = 4
+			y = 0
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		recon = {
+			x = 0
+			y = 1
+		}
+		logistics_company = {
+			x = 0
+			y = 2
+		}
+		signal_company = {
+			x = 0
+			y = 3
+		}
+		military_police = {
+			x = 0
+			y = 4
+		}
+	}
+	division_names_group = DDR_GT
+}
+units = {
+	division = {
+		division_template = "Grenztruppen Der DDR"
+		start_experience_factor = 0.11
+		location = 3522
+	}
+	division = {
+		division_template = "Grenztruppen Der DDR"
+		location = 11305
+		start_experience_factor = 0.11
+	}
+	division = {
+		division_template = "Grenztruppen Der DDR"
+		location = 13416
+		name = "Grenzkommando Mitte"
+		start_experience_factor = 0.11
+	}
+	division = {
+		division_template = "Grenztruppen Der DDR"
+		location = 3561
+		name = "Grenzkommando Süd"
+		start_experience_factor = 0.11
+	}
+	division = {
+		division_template = "Grenztruppen Der DDR"
+		location = 321
+		name = "Grenzbrigade Küste"
+		start_experience_factor = 0.11
+	}
+	division = {
+		division_template = "Grenztruppen Der DDR"
+		location = 9441
+		start_experience_factor = 0.11
+	}
+	division = {
+		division_template = "Grenztruppen Der DDR"
+		location = 3500
+		start_experience_factor = 0.11
+	}
+	division = {
+		division_template = "Grenztruppen Der DDR"
+		location = 11359
+		start_experience_factor = 0.11
+	}
+	division = {
+		division_template = "Grenztruppen Der DDR"
+		location = 9294
+		start_experience_factor = 0.11
+	}
+}

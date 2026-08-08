@@ -11,11 +11,15 @@ focus_tree = {
 	reset_on_civilwar = no
 	focus = {
 		id = DDR40_Occupation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
 		x = 0
 		y = 0
 		cost = 3
-		completion_reward = {}
+		completion_reward = {
+			news_event = {
+				id = DDR_Germany.1
+			}
+		}
 		ai_will_do = {
 			factor = 10
 		}
@@ -27,7 +31,10 @@ focus_tree = {
 		x = -1
 		y = 2
 		cost = 3
-		completion_reward = {}
+		completion_reward = {
+			remove_ideas = { SOZ_NaOfficers }
+			add_ideas = { SOZ_SovOfficers }
+		}
 		prerequisite = {
 			focus = DDR40_Occupation
 		}
@@ -66,7 +73,8 @@ focus_tree = {
 		cost = 3
 		completion_reward = {}
 		prerequisite = {
-			focus = DDR40_Political_Purges focus = DDR40_KeepNazis
+			focus = DDR40_Political_Purges
+			focus = DDR40_KeepNazis
 		}
 		prerequisite = {
 			focus = DDR40_LocGov
@@ -148,7 +156,10 @@ focus_tree = {
 		x = 1
 		y = 2
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			remove_ideas = { SOZ_NaOfficers }
+			add_ideas = { SOZ_GermanOfficers }
+		}
 		mutually_exclusive = {
 			focus = DDR40_Political_Purges
 		}
@@ -320,7 +331,9 @@ focus_tree = {
 		x = 7
 		y = 9
 		cost = 5
-		completion_reward = {}
+		completion_reward = {
+			load_oob = "DDR_GT"
+		}
 		prerequisite = {
 			focus = DDR40_PeoplesPolice
 		}

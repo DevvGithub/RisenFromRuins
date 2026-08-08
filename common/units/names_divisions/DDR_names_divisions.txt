@@ -1,0 +1,50 @@
+DDR_KVP = {
+	for_countries = { DDR }
+	division_types = { "motorized" }
+	can_use = {
+		always = yes
+	}
+	fallback_name = "%d. Mot-Schützen-Division"
+	ordered = {}
+	name = "KVP naming"
+}
+DDR_GT = {
+	for_countries = { DDR }
+	division_types = { "infantry" }
+	can_use = {
+		always = yes
+	}
+	ordered = {}
+	fallback_name = "Grenzregiment %d"
+	name = "Grenztruppen Der DDR"
+}
+DDR_KDA = {
+	for_countries = { DDR }
+	division_types = { "militia" }
+	can_use = {
+		always = yes
+	}
+	fallback_name = "%d. Bataillon der KDA"
+	ordered = {}
+	name = "KDA Naming"
+}
+DDR_NVAARMORED = {
+	for_countries = { DDR }
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	can_use = {
+		always = yes
+	}
+	fallback_name = "%d. Panzerdivision"
+	ordered = {}
+	name = "NVA Armored Naming"
+}
+DDR_NVA = {
+	for_countries = { DDR }
+	division_types = { "motorized" }
+	can_use = {
+		always = yes
+	}
+	ordered = {}
+	fallback_name = "%d. Mot-Schützen-Division"
+	name = "NVA Mot Naming"
+}

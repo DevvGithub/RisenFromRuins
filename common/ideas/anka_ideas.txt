@@ -5,15 +5,81 @@ ideas = {
 				original_tag = GER
 				always = no
 			}
-			allowed_civil_war = {
-				always = yes
-			}
 			removal_cost = -1
 			picture = generic_exploit_mines
 			modifier = {
 				production_speed_buildings_factor = -1
 				consumer_goods_factor = 0.8
 				global_building_slots = -2
+			}
+		}
+		SOZ_HJ = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = GER_army
+			modifier = {
+				fascism_drift = 0.01
+				political_power_gain = -0.5
+			}
+		}
+		DDR_FDJ = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = DDR_FDJ
+			modifier = {
+				communism_drift = 0.01
+				political_power_gain = 0.2
+			}
+		}
+		SOZ_NaOfficers = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GER_german_military
+			modifier = {
+				stability_factor = -0.4
+				fascism_drift = 0.2
+				command_power_daily = 0.2
+			}
+		}
+		DDR_RF = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = EST_democratic_opposition
+			modifier = {
+				stability_factor = -0.1
+				monthly_population = -17500
+				political_power_gain = -0.2
+			}
+		}
+		SOZ_SovOfficers = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_attack_soviet_union
+			modifier = {
+				stability_factor = 0.1
+				communism_drift = 0.2
+				command_power_daily = 0.2
+			}
+		}
+		SOZ_GermanOfficers = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = AFG_work_with_ger_intel_bonus
+			modifier = {
+				stability_factor = 0.2
+				command_power_daily = 0.2
 			}
 		}
 	}

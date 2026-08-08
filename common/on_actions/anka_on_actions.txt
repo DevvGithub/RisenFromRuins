@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			USA = {
+				news_event = {
+					id = korea.1
+					days = 1
+				}
+			}
+		}
+	}
+}

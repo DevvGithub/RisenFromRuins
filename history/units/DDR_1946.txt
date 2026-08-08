@@ -1,0 +1,218 @@
+division_template = {
+	name = "Kasernierte Volkspolizei"
+	regiments = {
+		motorized = {
+			x = 0
+			y = 0
+		}
+		motorized = {
+			x = 0
+			y = 1
+		}
+		motorized = {
+			x = 0
+			y = 2
+		}
+		motorized = {
+			x = 0
+			y = 3
+		}
+		motorized = {
+			x = 0
+			y = 4
+		}
+		motorized = {
+			x = 1
+			y = 0
+		}
+		motorized = {
+			x = 1
+			y = 1
+		}
+		motorized = {
+			x = 1
+			y = 2
+		}
+		motorized = {
+			x = 1
+			y = 3
+		}
+		motorized = {
+			x = 1
+			y = 4
+		}
+		motorized = {
+			x = 2
+			y = 0
+		}
+		motorized = {
+			x = 2
+			y = 1
+		}
+		motorized = {
+			x = 2
+			y = 2
+		}
+		motorized = {
+			x = 2
+			y = 3
+		}
+		motorized = {
+			x = 2
+			y = 4
+		}
+		mot_artillery_brigade = {
+			x = 3
+			y = 0
+		}
+		mot_artillery_brigade = {
+			x = 3
+			y = 1
+		}
+		mot_artillery_brigade = {
+			x = 3
+			y = 2
+		}
+		mot_anti_tank_brigade = {
+			x = 4
+			y = 0
+		}
+		mot_anti_air_brigade = {
+			x = 4
+			y = 1
+		}
+	}
+	division_names_group = DDR_KVP
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		recon = {
+			x = 0
+			y = 1
+		}
+		maintenance_company = {
+			x = 0
+			y = 2
+		}
+		logistics_company = {
+			x = 0
+			y = 3
+		}
+		signal_company = {
+			x = 0
+			y = 4
+		}
+	}
+}
+division_template = {
+	name = "Kampfgruppen der Arbeiterklasse"
+	regiments = {
+		militia = {
+			x = 0
+			y = 0
+		}
+		militia = {
+			x = 0
+			y = 1
+		}
+		militia = {
+			x = 0
+			y = 2
+		}
+		militia = {
+			x = 0
+			y = 3
+		}
+		militia = {
+			x = 0
+			y = 4
+		}
+		militia = {
+			x = 1
+			y = 0
+		}
+		militia = {
+			x = 1
+			y = 1
+		}
+		militia = {
+			x = 1
+			y = 2
+		}
+		militia = {
+			x = 1
+			y = 3
+		}
+		militia = {
+			x = 1
+			y = 4
+		}
+		militia = {
+			x = 2
+			y = 0
+		}
+		militia = {
+			x = 2
+			y = 1
+		}
+		motorized = {
+			x = 2
+			y = 2
+		}
+		motorized = {
+			x = 2
+			y = 3
+		}
+		artillery_brigade = {
+			x = 3
+			y = 0
+		}
+		anti_tank_brigade = {
+			x = 3
+			y = 1
+		}
+		anti_air_brigade = {
+			x = 3
+			y = 2
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		recon = {
+			x = 0
+			y = 1
+		}
+		military_police = {
+			x = 0
+			y = 2
+		}
+		logistics_company = {
+			x = 0
+			y = 3
+		}
+		signal_company = {
+			x = 0
+			y = 4
+		}
+	}
+	division_names_group = DDR_KDA
+}
+units = {
+	division = {
+		division_template = "Kampfgruppen der Arbeiterklasse"
+		location = 13416
+		start_experience_factor = 0.11
+		name = "K.D.A Bezirk Berlin"
+	}
+	division = {
+		division_template = "Kampfgruppen der Arbeiterklasse"
+		name = "K.D.A Bezirk Magdeburg"
+		start_experience_factor = 0.11
+		location = 3522
+	}
+}

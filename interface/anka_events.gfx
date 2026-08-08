@@ -3,4 +3,12 @@ spriteTypes = {
 		name = "GFX_report_event_italy_1_1"
 		texturefile = "gfx/event_pictures/italy_1_1.dds"
 	}
+	SpriteType = {
+		name = "GFX_report_event_korea_1"
+		texturefile = "gfx/event_pictures/korea_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_report_event_DDR_Germany_1"
+		texturefile = "gfx/event_pictures/DDR_Germany_1.dds"
+	}
 }
